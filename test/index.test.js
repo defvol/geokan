@@ -70,22 +70,22 @@ test('it can search for multiple formats', function (t) {
   var kan = new geokan()
   t.equal(kan.uri, uri, 'by default points to datos.gob.mx')
 
-  var queries = [
+  var formats = utils.formats([
     'GeoJSON',
     'KML',
     'KMZ',
     'SHP',
     'CSV'
-  ].map(function (f) { return 'res_format:' + f })
+  ])
 
-  var want = JSON.parse(fixture).result.results.length * queries.length
+  var want = JSON.parse(fixture).result.results.length * formats.length
 
   var concatStream = concat((data) => {
     t.equal(data.length, want, 'we collected 24 resources')
     t.equal(data[0].publisher, 'cenapred', 'objects were parsed')
   })
 
-  kan.msearch(queries, function (err, streams) {
+  kan.msearch(formats, function (err, streams) {
     streams.forEach(function (s) {
       s.pipe(concatStream)
     })
