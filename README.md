@@ -12,5 +12,6 @@ Flow:
 Usage:
 
 ```bash
+% npm install -g geokan
 % geokan --format shp,csv > shp+csv.json
 ```
