@@ -1,13 +1,11 @@
-var async = require('async')
-var ckan = require('ckan-search')
 var concat = require('concat-stream')
 var fs = require('fs')
+var geokan = require('../lib/')
 var nock = require('nock')
 var test = require('tape')
-var geokan = require('../lib/')
+var utils = require('../lib/utils')
 
 var uri = 'http://datos.gob.mx/busca/api/'
-var searcher = ckan({ uri: uri })
 var fixture = fs.readFileSync('results.json')
 
 nock(uri)
@@ -24,7 +22,8 @@ nock(uri)
 test('it builds simpler objects', function (t) {
   var response = JSON.parse(fixture)
   var results = response.result.results
-  var simpler = geokan.simplify(results)
+  var simplify = (new geokan()).simplify
+  var simpler = simplify(results)
 
   var got = simpler[0]
   var want = ['publisher', 'resource', 'format', 'uri']
@@ -43,7 +42,7 @@ test('it builds simpler objects', function (t) {
       ]
     }
   ]
-  got = geokan.simplify(fakedata)
+  got = simplify(fakedata)
 
   t.equal(got.length, 2, 'returns an entry for every resource')
   t.equal(got[0].resource, 'foo', 'an entry for resource foo')
@@ -55,41 +54,41 @@ test('it builds simpler objects', function (t) {
 test('it finds Content-Type of uri without full download', function (t) {
   t.plan(2)
 
-  var datasets = geokan.simplify(JSON.parse(fixture).result.results)
+  var kan = new geokan('https://www.github.com')
+  var datasets = kan.simplify(JSON.parse(fixture).result.results)
   var uri = datasets[1].uri
 
-  geokan.contentType(uri, (err, type) => {
+  utils.contentType(uri, (err, type) => {
     t.error(err)
     t.equal(type, 'application/json', 'finds a json file')
   })
 })
 
-test('it searchs for multiple formats', function (t) {
-  t.plan(7)
+test('it can search for multiple formats', function (t) {
+  t.plan(3)
 
-  var formats = [
+  var kan = new geokan()
+  t.equal(kan.uri, uri, 'by default points to datos.gob.mx')
+
+  var queries = [
     'GeoJSON',
     'KML',
     'KMZ',
     'SHP',
+    'CSV'
   ].map(function (f) { return 'res_format:' + f })
 
+  var want = JSON.parse(fixture).result.results.length * queries.length
+
   var concatStream = concat((data) => {
-    t.equal(data.length, 24, 'we collected 24 resources')
+    t.equal(data.length, want, 'we collected 24 resources')
     t.equal(data[0].publisher, 'cenapred', 'objects were parsed')
   })
 
-  var search = function (format, done) {
-    var s = searcher.stream({ fulltext: 'res_format:' + format })
-    s.on('end', () => {
-      t.ok(format, 'stream ended for ' + format)
+  kan.msearch(queries, function (err, streams) {
+    streams.forEach(function (s) {
+      s.pipe(concatStream)
     })
-    s.pipe(geokan.parseStream()).pipe(concatStream)
-    done(null, s)
-  }
-
-  async.concat(formats, search, function (err, streams) {
-    t.equal(streams.length, formats.length, 'invokes 4 search streams')
   })
 
 })
