@@ -4,7 +4,7 @@ var concat = require('concat-stream')
 var fs = require('fs')
 var nock = require('nock')
 var test = require('tape')
-var utils = require('./utils')
+var geokan = require('../lib/')
 
 var uri = 'http://datos.gob.mx/busca/api/'
 var searcher = ckan({ uri: uri })
@@ -24,7 +24,7 @@ nock(uri)
 test('it builds simpler objects', function (t) {
   var response = JSON.parse(fixture)
   var results = response.result.results
-  var simpler = utils.simplify(results)
+  var simpler = geokan.simplify(results)
 
   var got = simpler[0]
   var want = ['publisher', 'resource', 'format', 'uri']
@@ -43,7 +43,7 @@ test('it builds simpler objects', function (t) {
       ]
     }
   ]
-  got = utils.simplify(fakedata)
+  got = geokan.simplify(fakedata)
 
   t.equal(got.length, 2, 'returns an entry for every resource')
   t.equal(got[0].resource, 'foo', 'an entry for resource foo')
@@ -55,10 +55,10 @@ test('it builds simpler objects', function (t) {
 test('it finds Content-Type of uri without full download', function (t) {
   t.plan(2)
 
-  var datasets = utils.simplify(JSON.parse(fixture).result.results)
+  var datasets = geokan.simplify(JSON.parse(fixture).result.results)
   var uri = datasets[1].uri
 
-  utils.contentType(uri, (err, type) => {
+  geokan.contentType(uri, (err, type) => {
     t.error(err)
     t.equal(type, 'application/json', 'finds a json file')
   })
@@ -84,7 +84,7 @@ test('it searchs for multiple formats', function (t) {
     s.on('end', () => {
       t.ok(format, 'stream ended for ' + format)
     })
-    s.pipe(utils.parseStream()).pipe(concatStream)
+    s.pipe(geokan.parseStream()).pipe(concatStream)
     done(null, s)
   }
 

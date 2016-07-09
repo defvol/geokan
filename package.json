@@ -1,10 +1,13 @@
 {
   "name": "geokan",
   "version": "0.1.0",
-  "description": "Find potential geo datasets in a CKAN instance",
-  "main": "index.js",
+  "description": "Find geodata in CKAN",
+  "main": "lib/index.js",
+  "bin": {
+    "geokan": "lib/cli.js"
+  },
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test/*.test.js"
   },
   "keywords": [
     "ckan",
