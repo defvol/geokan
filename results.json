@@ -1,0 +1,741 @@
+{
+  "help": "http://datos.gob.mx/busca/api/3/action/help_show?name=package_search",
+  "success": true,
+  "result": {
+    "count": 6,
+    "sort": "score desc, metadata_modified desc",
+    "facets": {},
+    "results": [
+      {
+        "license_title": null,
+        "maintainer": null,
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 6,
+        "id": "638b3423-7995-4f58-bc86-c61c2da85609",
+        "metadata_created": "2015-06-12T15:31:44.991493",
+        "metadata_modified": "2016-06-22T02:42:08.941362",
+        "author": null,
+        "author_email": null,
+        "state": "active",
+        "version": null,
+        "creator_user_id": "61248bc7-db64-487d-970e-a5e1f4e960c3",
+        "type": "dataset",
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "package_id": "638b3423-7995-4f58-bc86-c61c2da85609",
+            "webstore_last_updated": null,
+            "datastore_active": false,
+            "id": "1f2e3147-0098-46d5-adf0-42663e304b5e",
+            "size": null,
+            "state": "active",
+            "hash": "",
+            "description": "Este mapa representa las zonas susceptibles de Hundimientos regionales y Agrietamientos por sobrexplotación de acuiferos en México. Este mapa se elaboró mediante la superposición de la información referente a las características de las diferentes provincias fisiográficas, la geomorfología, el estudio sobre los diferentes climas existentes en todo el país, así como la localización de las condiciones ambientales que propician la necesidad de extraer agua del subsuelo para consumo humano, agrícola e industrial, identificando las distintas formaciones geológicas involucradas, la edafología, la distribución de vertientes, ríos y cuencas hidrológicas, dando especial atención a las condiciones geológicas y a los datos de precipitación pluvial, mediante el estudio de isoyetas.",
+            "format": "GeoJSON",
+            "last_modified": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "Zona regional de hundimientos y agrietamientos",
+            "created": "2015-10-01T16:32:53.382787",
+            "url": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=4&f=geojson",
+            "webstore_url": null,
+            "mimetype_inner": null,
+            "position": 0,
+            "revision_id": "97df5458-5f73-4173-a280-391da3402633",
+            "resource_type": null
+          }
+        ],
+        "num_resources": 1,
+        "tags": [
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "agrietamiento",
+            "id": "e3b89c0b-de43-4538-85fc-f5f5e316b217",
+            "name": "agrietamiento"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "grieta",
+            "id": "89a211f6-1678-42c7-9b0d-1ee3d8023594",
+            "name": "grieta"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "hundimiento",
+            "id": "7a5f652d-fc9b-4563-aee1-d521c9a2a8ff",
+            "name": "hundimiento"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "infraestructura",
+            "id": "eaad4531-0506-47cd-8dba-7563f21c4980",
+            "name": "infraestructura"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "peligro",
+            "id": "9194b397-0a71-437d-baa5-e45a3f39c2de",
+            "name": "peligro"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "zona",
+            "id": "ac2b6156-208c-4466-af05-8df6a438ec81",
+            "name": "zona"
+          }
+        ],
+        "groups": [
+          {
+            "display_name": "ReconstrucciónMX",
+            "description": "La Estrategia Digital Nacional:\r\n\r\n\"23. Prevenir y mitigar los daños causados por desastres naturales mediante el uso de las TIC\"\r\n\r\nhttp://www.presidencia.gob.mx/edn/",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/reconstruccion-mx.png",
+            "title": "ReconstrucciónMX",
+            "id": "3f4eaea7-2024-458e-9e57-e7e20c9fb86c",
+            "name": "rmx"
+          }
+        ],
+        "license_id": null,
+        "relationships_as_subject": [],
+        "organization": {
+          "description": "http://www.cenapred.unam.mx",
+          "created": "2015-06-12T02:37:11.506223",
+          "title": "CENAPRED",
+          "name": "cenapred",
+          "is_organization": true,
+          "state": "active",
+          "image_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/logos/cenapred.png",
+          "revision_id": "16664719-bd1c-4533-8ea5-8d700e69e44f",
+          "type": "organization",
+          "id": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+          "approval_status": "approved"
+        },
+        "name": "zona-regional-de-hundimientos-y-agrietamientos",
+        "isopen": false,
+        "gov_type": [],
+        "url": null,
+        "notes": "Este mapa representa las zonas susceptibles de Hundimientos regionales y Agrietamientos por sobrexplotación de acuiferos en México. Este mapa se elaboró mediante la superposición de la información referente a las características de las diferentes provincias fisiográficas, la geomorfología, el estudio sobre los diferentes climas existentes en todo el país, así como la localización de las condiciones ambientales que propician la necesidad de extraer agua del subsuelo para consumo humano, agrícola e industrial, identificando las distintas formaciones geológicas involucradas, la edafología, la distribución de vertientes, ríos y cuencas hidrológicas, dando especial atención a las condiciones geológicas y a los datos de precipitación pluvial, mediante el estudio de isoyetas.",
+        "owner_org": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+        "extras": [
+          {
+            "key": "theme",
+            "value": "Seguridad y Justicia"
+          }
+        ],
+        "title": "Zona regional de hundimientos y agrietamientos",
+        "revision_id": "9b3aace2-f1f7-4859-8982-a23b141ef258"
+      },
+      {
+        "license_title": null,
+        "maintainer": null,
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 5,
+        "id": "a67cf15d-dcf2-420a-ab58-f04fc05e3901",
+        "metadata_created": "2015-06-12T15:31:43.858960",
+        "metadata_modified": "2016-06-22T02:42:08.048924",
+        "author": null,
+        "author_email": null,
+        "state": "active",
+        "version": null,
+        "creator_user_id": "61248bc7-db64-487d-970e-a5e1f4e960c3",
+        "type": "dataset",
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "package_id": "a67cf15d-dcf2-420a-ab58-f04fc05e3901",
+            "webstore_last_updated": null,
+            "datastore_active": false,
+            "id": "23ef93e0-ae0b-4234-a971-1712cbe6a52d",
+            "size": null,
+            "state": "active",
+            "hash": "",
+            "description": "Deslizamiento de laderas sin probabilidad de ocurrencia regionalizada en Baja California,  Baja California Sur, Eje Neovolcánico, Golfo California, Chihuahua, Durango, Golfo Norte, Golfo de México, Pacífico Norte y Pacífico Sur.",
+            "format": "GeoJSON",
+            "last_modified": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "Regiones susceptibles de deslizamientos",
+            "created": "2015-10-01T16:32:51.885950",
+            "url": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=3&f=geojson",
+            "webstore_url": null,
+            "mimetype_inner": null,
+            "position": 0,
+            "revision_id": "3fb160e7-c9b9-4f8f-9af6-0ea5401b8027",
+            "resource_type": null
+          }
+        ],
+        "num_resources": 1,
+        "tags": [
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "deslizamiento",
+            "id": "c9d41253-adb8-4f46-89c4-6b1bcc0cae08",
+            "name": "deslizamiento"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "infraestructura",
+            "id": "eaad4531-0506-47cd-8dba-7563f21c4980",
+            "name": "infraestructura"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "ladera",
+            "id": "6ec20986-d301-48ac-9762-3e985e1b0560",
+            "name": "ladera"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "región",
+            "id": "771e70a8-fa0d-440c-ac00-96ba3e61a0d9",
+            "name": "región"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "suceptibilidad",
+            "id": "8cfc1310-963a-4471-ab23-79cd4b6233bc",
+            "name": "suceptibilidad"
+          }
+        ],
+        "groups": [
+          {
+            "display_name": "Ciudades Inteligentes",
+            "description": "",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/datos.png",
+            "title": "Ciudades Inteligentes",
+            "id": "b35cb8d6-2b82-45d5-896b-fe490f7e65ea",
+            "name": "ciudades-inteligentes"
+          },
+          {
+            "display_name": "ReconstrucciónMX",
+            "description": "La Estrategia Digital Nacional:\r\n\r\n\"23. Prevenir y mitigar los daños causados por desastres naturales mediante el uso de las TIC\"\r\n\r\nhttp://www.presidencia.gob.mx/edn/",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/reconstruccion-mx.png",
+            "title": "ReconstrucciónMX",
+            "id": "3f4eaea7-2024-458e-9e57-e7e20c9fb86c",
+            "name": "rmx"
+          }
+        ],
+        "license_id": null,
+        "relationships_as_subject": [],
+        "organization": {
+          "description": "http://www.cenapred.unam.mx",
+          "created": "2015-06-12T02:37:11.506223",
+          "title": "CENAPRED",
+          "name": "cenapred",
+          "is_organization": true,
+          "state": "active",
+          "image_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/logos/cenapred.png",
+          "revision_id": "16664719-bd1c-4533-8ea5-8d700e69e44f",
+          "type": "organization",
+          "id": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+          "approval_status": "approved"
+        },
+        "name": "regiones-potenciales-de-deslizamiento-de-laderas",
+        "isopen": false,
+        "gov_type": [],
+        "url": null,
+        "notes": "Deslizamiento de laderas sin probabilidad de ocurrencia regionalizada en Baja California,  Baja California Sur, Eje Neovolcánico, Golfo California, Chihuahua, Durango, Golfo Norte, Golfo de México, Pacífico Norte y Pacífico Sur.",
+        "owner_org": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+        "extras": [
+          {
+            "key": "theme",
+            "value": "Seguridad y Justicia"
+          }
+        ],
+        "title": "Regiones potenciales de deslizamiento de laderas",
+        "revision_id": "a72c4083-135c-4f33-8638-2cc05cc8e8e7"
+      },
+      {
+        "license_title": null,
+        "maintainer": null,
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 5,
+        "id": "48f11133-b83a-4ef5-8c1c-d59ce3bd42f2",
+        "metadata_created": "2015-06-12T15:31:41.496690",
+        "metadata_modified": "2016-06-22T02:42:06.877886",
+        "author": null,
+        "author_email": null,
+        "state": "active",
+        "version": null,
+        "creator_user_id": "61248bc7-db64-487d-970e-a5e1f4e960c3",
+        "type": "dataset",
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "package_id": "48f11133-b83a-4ef5-8c1c-d59ce3bd42f2",
+            "webstore_last_updated": null,
+            "datastore_active": false,
+            "id": "bdf7ab65-2ebc-4c63-b272-c62aaee47e26",
+            "size": null,
+            "state": "active",
+            "hash": "",
+            "description": "Mapa que muestra la zona receptora de tsunamis lejanos y la zona generadora de tsunamis locales y receptora de lejanos, donde la altura de las olas esperada en Baja California, Sonora y Sinaloa es máxima de 3 metros, mientras que en el resto de la costa occidental puede ser hasta de 10 metros.",
+            "format": "GeoJSON",
+            "last_modified": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "Zonas de peligro por tsunamis lejanos y locales",
+            "created": "2015-10-01T16:32:50.236124",
+            "url": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=2&f=geojson",
+            "webstore_url": null,
+            "mimetype_inner": null,
+            "position": 0,
+            "revision_id": "bc77de6f-aab2-4a8a-b63f-29e1faa91a78",
+            "resource_type": null
+          }
+        ],
+        "num_resources": 1,
+        "tags": [
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "infraestructura",
+            "id": "eaad4531-0506-47cd-8dba-7563f21c4980",
+            "name": "infraestructura"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "inundación",
+            "id": "f405e873-283d-4505-a84a-f4fd51b3fc66",
+            "name": "inundación"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "peligro",
+            "id": "9194b397-0a71-437d-baa5-e45a3f39c2de",
+            "name": "peligro"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "tsunami",
+            "id": "ed2bcc3d-60ae-4d24-9c37-01a5317efc46",
+            "name": "tsunami"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "zona",
+            "id": "ac2b6156-208c-4466-af05-8df6a438ec81",
+            "name": "zona"
+          }
+        ],
+        "groups": [
+          {
+            "display_name": "ReconstrucciónMX",
+            "description": "La Estrategia Digital Nacional:\r\n\r\n\"23. Prevenir y mitigar los daños causados por desastres naturales mediante el uso de las TIC\"\r\n\r\nhttp://www.presidencia.gob.mx/edn/",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/reconstruccion-mx.png",
+            "title": "ReconstrucciónMX",
+            "id": "3f4eaea7-2024-458e-9e57-e7e20c9fb86c",
+            "name": "rmx"
+          }
+        ],
+        "license_id": null,
+        "relationships_as_subject": [],
+        "organization": {
+          "description": "http://www.cenapred.unam.mx",
+          "created": "2015-06-12T02:37:11.506223",
+          "title": "CENAPRED",
+          "name": "cenapred",
+          "is_organization": true,
+          "state": "active",
+          "image_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/logos/cenapred.png",
+          "revision_id": "16664719-bd1c-4533-8ea5-8d700e69e44f",
+          "type": "organization",
+          "id": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+          "approval_status": "approved"
+        },
+        "name": "zonas-de-peligro-por-tsunamis-lejanos-y-locales",
+        "isopen": false,
+        "gov_type": [],
+        "url": null,
+        "notes": "Mapa que muestra la zona receptora de tsunamis lejanos y la zona generadora de tsunamis locales y receptora de lejanos, donde la altura de las olas esperada en Baja California, Sonora y Sinaloa es máxima de 3 metros, mientras que en el resto de la costa occidental puede ser hasta de 10 metros.",
+        "owner_org": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+        "extras": [
+          {
+            "key": "theme",
+            "value": "Seguridad y Justicia"
+          }
+        ],
+        "title": "Zonas de peligro por tsunamis lejanos y locales",
+        "revision_id": "96db8fc3-7875-48fb-8e9e-5bbbe6964548"
+      },
+      {
+        "license_title": null,
+        "maintainer": null,
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 5,
+        "id": "b919688c-5aa3-4368-867e-9b7fdc0e0233",
+        "metadata_created": "2015-06-12T15:31:38.918475",
+        "metadata_modified": "2016-06-22T02:42:05.947956",
+        "author": null,
+        "author_email": null,
+        "state": "active",
+        "version": null,
+        "creator_user_id": "61248bc7-db64-487d-970e-a5e1f4e960c3",
+        "type": "dataset",
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "package_id": "b919688c-5aa3-4368-867e-9b7fdc0e0233",
+            "webstore_last_updated": null,
+            "datastore_active": false,
+            "id": "fb3ceb2d-67e2-4a98-bc16-16005abffbb8",
+            "size": null,
+            "state": "active",
+            "hash": "",
+            "description": "Las explosiones volcánicas producen fragmentos que son expulsados hacia la atmósfera para luego caer sobre la superficie terrestre siguiendo trayectorias aproximadamente parabólicas. Los fragmentos pueden tener diámetros de hasta algunos metros y se conocen con el nombre de productos balísticos.El alcance de los proyectiles balísticos depende de la magnitud de la explosión que les dio origen, aunque fácilmente tienen un alcance superior a 10 Km. Sin embargo, estos representan un peligro para la vida y las propiedades por la fuerza de impacto con la que caen y por sus elevadas temperaturas. Las velocidades típicas de impacto van desde 300 hasta 500 km/h. Esto implica que las personas puedan sobrevivir la caída de proyectiles pequeños (menos de 3 cm) en refugios especiales, pero no balísticos grandes ya que pueden afectar incluso construcciones sólidas (por ejemplo un balístico de 31 cm de diámetro que cae a una velocidad de 500 Hm/h tiene una energía de impacto igual a la del choque de un automóvil de una tonelada moviéndose a 100 km/h). Para determinar los máximos alcances posibles se elaboró un modelo matemático que describe la trayectoria de los productos balísticos considerando la fuerza de la gravedad y la fuerza del arrastre del aire. Con dicho modelo se calcula el ángulo de lanzamiento del proyectil con el que se obtiene su máximo alcance.Durante el procesamiento de la información se encontró que existe un rango óptimo de tamaño de los fragmentos, el cual depende de la magnitud de la explosión y con el cual, los balísticos logran un mayor alcance. Esto es debido a que los fragmentos de dimensiones mayores y menores a este rango óptimo resienten más las fuerzas gravitatorias y de arrates respectivamente, y como consecuencia de ello se alcance es menor.En cada cálculo se consideró la topografía del volcán, así como las restricciones que impone el cráter al ángulo de salida. En función de lo anterior, el alcance varía según el sector hacia donde se dirija la explosión, sin embargo, el alcance máximo calculado para la zona de mayor peligro (escenario de magnitud similar a la erupción actual) es de 5 km, mientras que el de la zona de peligrosidad intermedia (escenario de erupción subpliniana) es de 8 km y el alcance de la zona de peligrosidad baja (escenario de erupción pliniana) es de 14 km a partir del cráter. De esta manera, los tres escenarios plasmados en el mapa permiten tener una percepción espacial del área que puede ser afectada por la caída probable de balísticos. En el caso más probable y por tanto de mayor peligro, el área de afectación se muestra en color rojo. En el caso menos probable y por tanto de menor peligro, correspondiente a los eventos explosivos plinianos, el alcance es mayor y el área de afectación se muestra en color amarillo. La zona de peligrosidad intermedia se muestra en color naranja. Las explosiones volcánicas producen fragmentos que son expulsados hacia la atmósfera para luego caer sobre la superficie terrestre siguiendo trayectorias aproximadamente parabólicas. Los fragmentos pueden tener diámetros de hasta algunos metros y se conocen con el nombre de productos balísticos. El alcance de los proyectiles balísticos depende de la magnitud de la explosión que les dio origen, aunque fácilmente tienen un alcance superior a 10 Km. Sin embargo, estos representan un peligro para la vida y las propiedades por la fuerza de impacto con la que caen y por sus elevadas temperaturas. Las velocidades típicas de impacto van desde 300 hasta 500 km/h. Esto implica que las personas puedan sobrevivir la caída de proyectiles pequeños (menos de 3 cm) en refugios especiales, pero no balísticos grandes ya que pueden afectar incluso construcciones sólidas (por ejemplo un balístico de 31 cm de diámetro que cae a una velocidad de 500 Hm/h tiene una energía de impacto igual a la del choque de un automóvil de una tonelada moviéndose a 100 km/h). Para determinar los máximos alcances posibles se elaboró un modelo matemático que describe la trayectoria de los productos balísticos considerando la fuerza de la gravedad y la fuerza del arrastre del aire. Con dicho modelo se calcula el ángulo de lanzamiento del proyectil con el que se obtiene su máximo alcance. Durante el procesamiento de la información se encontró que existe un rango óptimo de tamaño de los fragmentos, el cual depende de la magnitud de la explosión y con el cual, los balísticos logran un mayor alcance. Esto es debido a que los fragmentos de dimensiones mayores y menores a este rango óptimo resienten más las fuerzas gravitatorias y de arrates respectivamente, y como consecuencia de ello se alcance es menor. En cada cálculo se consideró la topografía del volcán, así como las restricciones que impone el cráter al ángulo de salida. En función de lo anterior, el alcance varía según el sector hacia donde se dirija la explosión, sin embargo, el alcance máximo calculado para la zona de mayor peligro (escenario de magnitud similar a la erupción actual) es de 5 km, mientras que el de la zona de peligrosidad intermedia (escenario de erupción subpliniana) es de 8 km y el alcance de la zona de peligrosidad baja (escenario de erupción pliniana) es de 14 km a partir del cráter. De esta manera, los tres escenarios plasmados en el mapa permiten tener una percepción espacial del área que puede ser afectada por la caída probable de balísticos. En el caso más probable y por tanto de mayor peligro, el área de afectación se muestra en color rojo. En el caso menos probable y por tanto de menor peligro, correspondiente a los eventos explosivos plinianos, el alcance es mayor y el área de afectación se muestra en color amarillo. La zona de peligrosidad intermedia se muestra en color naranja. El mapa permite mediante esta distinción de áreas de posible alcance, identificar las áreas de afectación según los diferentes escenarios, lo cual es útil en la planeación de las acciones a llevar a cabo en caso de contingencia.",
+            "format": "GeoJSON",
+            "last_modified": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "Zona de peligro por caída de cenizas",
+            "created": "2015-10-01T16:32:48.882273",
+            "url": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=1&f=geojson",
+            "webstore_url": null,
+            "mimetype_inner": null,
+            "position": 0,
+            "revision_id": "b6305575-30db-45e6-8bbf-c4531dae1b40",
+            "resource_type": null
+          }
+        ],
+        "num_resources": 1,
+        "tags": [
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "balísticos",
+            "id": "1f2d0727-d2b6-4787-9a9d-a25e73cf998b",
+            "name": "balísticos"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "caída",
+            "id": "c406ca46-3000-4581-88e1-2bf10a70cde8",
+            "name": "caída"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "infraestructura",
+            "id": "eaad4531-0506-47cd-8dba-7563f21c4980",
+            "name": "infraestructura"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "peligro",
+            "id": "9194b397-0a71-437d-baa5-e45a3f39c2de",
+            "name": "peligro"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "zona",
+            "id": "ac2b6156-208c-4466-af05-8df6a438ec81",
+            "name": "zona"
+          }
+        ],
+        "groups": [
+          {
+            "display_name": "ReconstrucciónMX",
+            "description": "La Estrategia Digital Nacional:\r\n\r\n\"23. Prevenir y mitigar los daños causados por desastres naturales mediante el uso de las TIC\"\r\n\r\nhttp://www.presidencia.gob.mx/edn/",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/reconstruccion-mx.png",
+            "title": "ReconstrucciónMX",
+            "id": "3f4eaea7-2024-458e-9e57-e7e20c9fb86c",
+            "name": "rmx"
+          }
+        ],
+        "license_id": null,
+        "relationships_as_subject": [],
+        "organization": {
+          "description": "http://www.cenapred.unam.mx",
+          "created": "2015-06-12T02:37:11.506223",
+          "title": "CENAPRED",
+          "name": "cenapred",
+          "is_organization": true,
+          "state": "active",
+          "image_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/logos/cenapred.png",
+          "revision_id": "16664719-bd1c-4533-8ea5-8d700e69e44f",
+          "type": "organization",
+          "id": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+          "approval_status": "approved"
+        },
+        "name": "zona-de-peligro-por-caida-de-material-volcanico-para-el-popocatepetl",
+        "isopen": false,
+        "gov_type": [],
+        "url": null,
+        "notes": "Las explosiones volcánicas producen fragmentos que son expulsados hacia la atmósfera para luego caer sobre la superficie terrestre siguiendo trayectorias aproximadamente parabólicas. Los fragmentos pueden tener diámetros de hasta algunos metros y se conocen con el nombre de productos balísticos.El alcance de los proyectiles balísticos depende de la magnitud de la explosión que les dio origen, aunque fácilmente tienen un alcance superior a 10 Km. Sin embargo, estos representan un peligro para la vida y las propiedades por la fuerza de impacto con la que caen y por sus elevadas temperaturas. Las velocidades típicas de impacto van desde 300 hasta 500 km/h. Esto implica que las personas puedan sobrevivir la caída de proyectiles pequeños (menos de 3 cm) en refugios especiales, pero no balísticos grandes ya que pueden afectar incluso construcciones sólidas (por ejemplo un balístico de 31 cm de diámetro que cae a una velocidad de 500 Hm/h tiene una energía de impacto igual a la del choque de un automóvil de una tonelada moviéndose a 100 km/h). Para determinar los máximos alcances posibles se elaboró un modelo matemático que describe la trayectoria de los productos balísticos considerando la fuerza de la gravedad y la fuerza del arrastre del aire. Con dicho modelo se calcula el ángulo de lanzamiento del proyectil con el que se obtiene su máximo alcance.Durante el procesamiento de la información se encontró que existe un rango óptimo de tamaño de los fragmentos, el cual depende de la magnitud de la explosión y con el cual, los balísticos logran un mayor alcance. Esto es debido a que los fragmentos de dimensiones mayores y menores a este rango óptimo resienten más las fuerzas gravitatorias y de arrates respectivamente, y como consecuencia de ello se alcance es menor.En cada cálculo se consideró la topografía del volcán, así como las restricciones que impone el cráter al ángulo de salida. En función de lo anterior, el alcance varía según el sector hacia donde se dirija la explosión, sin embargo, el alcance máximo calculado para la zona de mayor peligro (escenario de magnitud similar a la erupción actual) es de 5 km, mientras que el de la zona de peligrosidad intermedia (escenario de erupción subpliniana) es de 8 km y el alcance de la zona de peligrosidad baja (escenario de erupción pliniana) es de 14 km a partir del cráter. De esta manera, los tres escenarios plasmados en el mapa permiten tener una percepción espacial del área que puede ser afectada por la caída probable de balísticos. En el caso más probable y por tanto de mayor peligro, el área de afectación se muestra en color rojo. En el caso menos probable y por tanto de menor peligro, correspondiente a los eventos explosivos plinianos, el alcance es mayor y el área de afectación se muestra en color amarillo. La zona de peligrosidad intermedia se muestra en color naranja. Las explosiones volcánicas producen fragmentos que son expulsados hacia la atmósfera para luego caer sobre la superficie terrestre siguiendo trayectorias aproximadamente parabólicas. Los fragmentos pueden tener diámetros de hasta algunos metros y se conocen con el nombre de productos balísticos. El alcance de los proyectiles balísticos depende de la magnitud de la explosión que les dio origen, aunque fácilmente tienen un alcance superior a 10 Km. Sin embargo, estos representan un peligro para la vida y las propiedades por la fuerza de impacto con la que caen y por sus elevadas temperaturas. Las velocidades típicas de impacto van desde 300 hasta 500 km/h. Esto implica que las personas puedan sobrevivir la caída de proyectiles pequeños (menos de 3 cm) en refugios especiales, pero no balísticos grandes ya que pueden afectar incluso construcciones sólidas (por ejemplo un balístico de 31 cm de diámetro que cae a una velocidad de 500 Hm/h tiene una energía de impacto igual a la del choque de un automóvil de una tonelada moviéndose a 100 km/h). Para determinar los máximos alcances posibles se elaboró un modelo matemático que describe la trayectoria de los productos balísticos considerando la fuerza de la gravedad y la fuerza del arrastre del aire. Con dicho modelo se calcula el ángulo de lanzamiento del proyectil con el que se obtiene su máximo alcance. Durante el procesamiento de la información se encontró que existe un rango óptimo de tamaño de los fragmentos, el cual depende de la magnitud de la explosión y con el cual, los balísticos logran un mayor alcance. Esto es debido a que los fragmentos de dimensiones mayores y menores a este rango óptimo resienten más las fuerzas gravitatorias y de arrates respectivamente, y como consecuencia de ello se alcance es menor. En cada cálculo se consideró la topografía del volcán, así como las restricciones que impone el cráter al ángulo de salida. En función de lo anterior, el alcance varía según el sector hacia donde se dirija la explosión, sin embargo, el alcance máximo calculado para la zona de mayor peligro (escenario de magnitud similar a la erupción actual) es de 5 km, mientras que el de la zona de peligrosidad intermedia (escenario de erupción subpliniana) es de 8 km y el alcance de la zona de peligrosidad baja (escenario de erupción pliniana) es de 14 km a partir del cráter. De esta manera, los tres escenarios plasmados en el mapa permiten tener una percepción espacial del área que puede ser afectada por la caída probable de balísticos. En el caso más probable y por tanto de mayor peligro, el área de afectación se muestra en color rojo. En el caso menos probable y por tanto de menor peligro, correspondiente a los eventos explosivos plinianos, el alcance es mayor y el área de afectación se muestra en color amarillo. La zona de peligrosidad intermedia se muestra en color naranja. El mapa permite mediante esta distinción de áreas de posible alcance, identificar las áreas de afectación según los diferentes escenarios, lo cual es útil en la planeación de las acciones a llevar a cabo en caso de contingencia.",
+        "owner_org": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+        "extras": [
+          {
+            "key": "theme",
+            "value": "Seguridad y Justicia"
+          }
+        ],
+        "title": "Zona de peligro por caída de material Volcánico para el Popocatépetl",
+        "revision_id": "ab96b9de-8e83-4cd4-86a0-5244083bae4d"
+      },
+      {
+        "license_title": null,
+        "maintainer": null,
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 4,
+        "id": "4830a0ce-f8f7-46f0-9ae4-fdd8fc876832",
+        "metadata_created": "2015-06-12T15:31:35.811882",
+        "metadata_modified": "2016-06-22T02:42:05.167135",
+        "author": null,
+        "author_email": null,
+        "state": "active",
+        "version": null,
+        "creator_user_id": "61248bc7-db64-487d-970e-a5e1f4e960c3",
+        "type": "dataset",
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "package_id": "4830a0ce-f8f7-46f0-9ae4-fdd8fc876832",
+            "webstore_last_updated": null,
+            "datastore_active": false,
+            "id": "199d8bcf-1f8d-4dbb-9162-361b80c9560e",
+            "size": null,
+            "state": "active",
+            "hash": "",
+            "description": "Localizacion de los 68 volcanes considerados activos, clasificados por categoría segun su historial de actividad eruptiva.",
+            "format": "GeoJSON",
+            "last_modified": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "Volcanes activos",
+            "created": "2015-10-01T16:32:41.104156",
+            "url": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=0&f=geojson",
+            "webstore_url": null,
+            "mimetype_inner": null,
+            "position": 0,
+            "revision_id": "3bc63697-17e2-4fd5-8953-26da4d335e34",
+            "resource_type": null
+          }
+        ],
+        "num_resources": 1,
+        "tags": [
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "actividad",
+            "id": "0fb97502-c74c-4514-86eb-88007936dde3",
+            "name": "actividad"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "infraestructura",
+            "id": "eaad4531-0506-47cd-8dba-7563f21c4980",
+            "name": "infraestructura"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "peligro",
+            "id": "9194b397-0a71-437d-baa5-e45a3f39c2de",
+            "name": "peligro"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "volcán",
+            "id": "007eb73c-c899-4a46-bce6-69fa877694ec",
+            "name": "volcán"
+          }
+        ],
+        "groups": [
+          {
+            "display_name": "ReconstrucciónMX",
+            "description": "La Estrategia Digital Nacional:\r\n\r\n\"23. Prevenir y mitigar los daños causados por desastres naturales mediante el uso de las TIC\"\r\n\r\nhttp://www.presidencia.gob.mx/edn/",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/reconstruccion-mx.png",
+            "title": "ReconstrucciónMX",
+            "id": "3f4eaea7-2024-458e-9e57-e7e20c9fb86c",
+            "name": "rmx"
+          }
+        ],
+        "license_id": null,
+        "relationships_as_subject": [],
+        "organization": {
+          "description": "http://www.cenapred.unam.mx",
+          "created": "2015-06-12T02:37:11.506223",
+          "title": "CENAPRED",
+          "name": "cenapred",
+          "is_organization": true,
+          "state": "active",
+          "image_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/logos/cenapred.png",
+          "revision_id": "16664719-bd1c-4533-8ea5-8d700e69e44f",
+          "type": "organization",
+          "id": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+          "approval_status": "approved"
+        },
+        "name": "volcanes-activos",
+        "isopen": false,
+        "gov_type": [],
+        "url": null,
+        "notes": "Localizacion de los 68 volcanes considerados activos, clasificados por categoría segun su historial de actividad eruptiva.",
+        "owner_org": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+        "extras": [
+          {
+            "key": "theme",
+            "value": "Seguridad y Justicia"
+          }
+        ],
+        "title": "Volcanes activos",
+        "revision_id": "46d974ea-1e23-4c89-b270-c9e3d7242a3b"
+      },
+      {
+        "license_title": null,
+        "maintainer": null,
+        "relationships_as_object": [],
+        "private": false,
+        "maintainer_email": null,
+        "num_tags": 4,
+        "id": "ee8f9925-fc2d-4272-9a57-c5838be913c8",
+        "metadata_created": "2015-06-12T15:31:34.713440",
+        "metadata_modified": "2016-06-22T02:42:04.322826",
+        "author": null,
+        "author_email": null,
+        "state": "active",
+        "version": null,
+        "creator_user_id": "61248bc7-db64-487d-970e-a5e1f4e960c3",
+        "type": "dataset",
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "package_id": "ee8f9925-fc2d-4272-9a57-c5838be913c8",
+            "webstore_last_updated": null,
+            "datastore_active": false,
+            "id": "02ea06a8-32c1-402d-ae68-e5635b558283",
+            "size": null,
+            "state": "active",
+            "hash": "",
+            "description": "Índice de peligro por inundaciones a nivel municipal, elaborado por la Subdirección de Riesgos Hidrometeorológicos del CENAPRED.",
+            "format": "GeoJSON",
+            "last_modified": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": "Peligro por inundaciones a nivel municipal",
+            "created": "2015-10-01T16:32:40.111016",
+            "url": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=5&f=geojson",
+            "webstore_url": null,
+            "mimetype_inner": null,
+            "position": 0,
+            "revision_id": "ed630a66-5a11-4660-bf9c-a501aad4dfd8",
+            "resource_type": null
+          }
+        ],
+        "num_resources": 1,
+        "tags": [
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "infraestructura",
+            "id": "eaad4531-0506-47cd-8dba-7563f21c4980",
+            "name": "infraestructura"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "inundación",
+            "id": "f405e873-283d-4505-a84a-f4fd51b3fc66",
+            "name": "inundación"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "municipios",
+            "id": "986afebd-9aa2-47fb-8347-4835260da126",
+            "name": "municipios"
+          },
+          {
+            "vocabulary_id": null,
+            "state": "active",
+            "display_name": "peligro",
+            "id": "9194b397-0a71-437d-baa5-e45a3f39c2de",
+            "name": "peligro"
+          }
+        ],
+        "groups": [
+          {
+            "display_name": "Ciudades Inteligentes",
+            "description": "",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/datos.png",
+            "title": "Ciudades Inteligentes",
+            "id": "b35cb8d6-2b82-45d5-896b-fe490f7e65ea",
+            "name": "ciudades-inteligentes"
+          },
+          {
+            "display_name": "ReconstrucciónMX",
+            "description": "La Estrategia Digital Nacional:\r\n\r\n\"23. Prevenir y mitigar los daños causados por desastres naturales mediante el uso de las TIC\"\r\n\r\nhttp://www.presidencia.gob.mx/edn/",
+            "image_display_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/grupos/reconstruccion-mx.png",
+            "title": "ReconstrucciónMX",
+            "id": "3f4eaea7-2024-458e-9e57-e7e20c9fb86c",
+            "name": "rmx"
+          }
+        ],
+        "license_id": null,
+        "relationships_as_subject": [],
+        "organization": {
+          "description": "http://www.cenapred.unam.mx",
+          "created": "2015-06-12T02:37:11.506223",
+          "title": "CENAPRED",
+          "name": "cenapred",
+          "is_organization": true,
+          "state": "active",
+          "image_url": "https://raw.githubusercontent.com/mxabierto/assets/master/img/logos/cenapred.png",
+          "revision_id": "16664719-bd1c-4533-8ea5-8d700e69e44f",
+          "type": "organization",
+          "id": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+          "approval_status": "approved"
+        },
+        "name": "peligro-por-inundaciones-a-nivel-municipal",
+        "isopen": false,
+        "gov_type": [],
+        "url": null,
+        "notes": "Índice de peligro por inundaciones a nivel municipal, elaborado por la Subdirección de Riesgos Hidrometeorológicos del CENAPRED.",
+        "owner_org": "1031d7bb-8147-4cd6-944e-6e721ec01fd4",
+        "extras": [
+          {
+            "key": "theme",
+            "value": "Seguridad y Justicia"
+          }
+        ],
+        "title": "Peligro por inundaciones a nivel municipal",
+        "revision_id": "2f04d8b0-7e62-42ec-bd24-eb0b3e690f3a"
+      }
+    ],
+    "search_facets": {}
+  }
+}

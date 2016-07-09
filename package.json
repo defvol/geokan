@@ -1,0 +1,24 @@
+{
+  "name": "geokan",
+  "version": "0.1.0",
+  "description": "Find potential geo datasets in a CKAN instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "ckan",
+    "open",
+    "data"
+  ],
+  "author": "Rodolfo Wilhelmy",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "ckan-search": "rodowi/ckan-search",
+    "nock": "^8.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
