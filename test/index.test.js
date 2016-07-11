@@ -6,7 +6,7 @@ var test = require('tape')
 var utils = require('../lib/utils')
 
 var uri = 'http://datos.gob.mx/busca/api/'
-var fixture = fs.readFileSync('results.json')
+var fixture = fs.readFileSync(`${__dirname}/fixtures/results.json`)
 
 nock(uri)
   .persist()
