@@ -13,5 +13,5 @@ Usage:
 
 ```bash
 % npm install -g geokan
-% geokan --format shp,csv > shp+csv.json
+% geokan --format geojson,GeoJSON,shp,SHP,kml,KML,kmz,KMZ > geo.json
 ```
