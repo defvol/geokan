@@ -19,6 +19,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "ckan-search": "rodowi/ckan-search",
+    "http-head": "^0.1.0",
     "nock": "^8.0.0"
   },
   "devDependencies": {

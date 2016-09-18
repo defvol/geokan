@@ -1,6 +1,7 @@
 var concat = require('concat-stream')
 var fs = require('fs')
 var geokan = require('../lib/')
+var head = require('http-head')
 var nock = require('nock')
 var test = require('tape')
 var utils = require('../lib/utils')
@@ -58,9 +59,9 @@ test('it finds Content-Type of uri without full download', function (t) {
   var datasets = kan.simplify(JSON.parse(fixture).result.results)
   var uri = datasets[1].uri
 
-  utils.contentType(uri, (err, type) => {
+  head(uri, (err, headers) => {
     t.error(err)
-    t.equal(type, 'application/json', 'finds a json file')
+    t.equal(headers['content-type'], 'application/json', 'finds a json file')
   })
 })
 
